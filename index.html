@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SK Swarup - Digital Tech Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+    header { background: linear-gradient(to right, #3b82f6, #1e40af); padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 3rem; font-weight: 800; color: #fff; }
+    header p { font-size: 1.2rem; margin-top: 10px; color: #dbeafe; }
+    nav { background-color: #1e293b; display: flex; justify-content: center; gap: 30px; padding: 15px 0; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: #e2e8f0; text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+    nav a:hover { color: #38bdf8; }
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; color: #60a5fa; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; }
+    .card { background: #1e293b; border-radius: 12px; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); text-align: center; transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); }
+    .card img, .card iframe { width: 100%; border-radius: 10px; margin-bottom: 15px; }
+    .btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #3b82f6; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; }
+    footer { background-color: #0f172a; text-align: center; padding: 30px 20px; border-top: 1px solid #1e293b; }
+    .social-icons a { margin: 0 10px; color: #94a3b8; text-decoration: none; transition: color 0.3s; }
+    .social-icons a:hover { color: #38bdf8; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SK Swarup</h1>
+    <p>Explore Tech | Learn | Shop | Download</p>
+  </header>
+
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#videos">Videos</a>
+    <a href="#pdfs">PDFs</a>
+    <a href="#apps">Apps</a>
+    <a href="#ai">AI Tools</a>
+  </nav>
+
+  <section id="shop">
+    <h2>Tech Shop</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Smartwatch" />
+        <h3>Smart Watch</h3>
+        <p>₹2,499</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Earbuds" />
+        <h3>Wireless Earbuds</h3>
+        <p>₹1,999</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>YouTube Videos</h2>
+    <div class="grid">
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        <h3>Latest Tech Talk</h3>
+      </div>
+      <div class="card">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+        <h3>Smartwatch Guide</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="pdfs">
+    <h2>Tech PDFs</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="PDF Guide">
+        <h3>Tech Beginner's Guide</h3>
+        <a href="#" class="btn">Download PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Mobile Apps</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="App">
+        <h3>Official App</h3>
+        <a href="#" class="btn">Download App</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai">
+    <h2>Top AI Tools</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>ChatGPT</h3>
+        <p>Powerful AI chatbot for all your queries.</p>
+        <a href="https://chat.openai.com" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="card">
+        <h3>Midjourney</h3>
+        <p>AI tool to generate images from text prompts.</p>
+        <a href="https://www.midjourney.com" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="card">
+        <h3>Runway ML</h3>
+        <p>Next-gen AI video editing platform.</p>
+        <a href="https://runwayml.com" target="_blank" class="btn">Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Follow SK Swarup</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">YouTube</a>
+      <a href="#">X</a>
+    </div>
+    <p>&copy; 2025 SK Swarup. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
